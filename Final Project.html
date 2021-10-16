@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>Gossip Girl</title>
+    <link
+      rel="icon"
+      href="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/011/985/original/Untitled_design.png?1625089384"
+    />
+    <style>
+      body {
+        background: linear-gradient(180deg, #fdfcfb 0%, #e2d1c3 100%);
+      }
+      h1 {
+        text-align: center;
+        text-decoration: dashed;
+        margin-top: 100px;
+        border-color: #fcfaf4;
+        letter-spacing: normal;
+        font-family: Georgia, serif;
+        font-size: 40px;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      h2 {
+        text-align: center;
+        text-decoration: double;
+        font-family: Georgia, serif;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        color: #aa6c39;
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+      img {
+        max-width: 500px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 8px;
+      }
+      p {
+        text-align: justify;
+        text-indent: 40px;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        line-height: 1.8em;
+        font-size: 15px;
+        max-width: 80%;
+      }
+      .watch {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-family: Georgia, serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #aa6c39;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 8px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        background-color: #fcfaf4;
+        transition: all 200ms ease-in-out;
+        text-decoration: none;
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      button:hover {
+        background-color: #f2e7b0;
+        color: black;
+        cursor: pointer;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      .trailer {
+        color: #aa6c39;
+      }
+      .imdb {
+        color: #aa6c39;
+      }
+      span {
+        font-weight: thin;
+        font-size: 12px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Gossip Girl</h1>
+
+    <h2>book series turned tv hit</h2>
+
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/011/893/original/gossip-girl.jpeg?1624994825"
+    />
+    <p>
+      <em>Gossip Girl</em> is an american tv series based on the books written
+      by Cecily Von Ziegesar and adapted to television by
+      <a
+        href="https://www.imdb.com/name/nm0777300/"
+        target="_blank"
+        class="imdb"
+      >
+        Josh Schartz</a
+      >
+      ("The O.C", "Dinasty") and
+      <a
+        href="https://www.imdb.com/name/nm1335634/"
+        target="_blank"
+        class="imdb"
+      >
+        Stephanie Savage</a
+      >
+      ("The Carrie Diaries", "Nancy Drew"). It was broadcast by The CW during
+      its six seasons run and it became an instant success. The series revolves
+      around the lives of privileged upper-class adolescents living in
+      Manhattan's Upper East Side. It begins with the return of Upper East Side
+      teenage "it girl" Serena van der Woodsen from a mysterious absence. It
+      catapulted its actors to stardom, such as
+      <a
+        href="https://www.imdb.com/name/nm0515116/"
+        target="_blank"
+        class="imdb"
+      >
+        Blake Lively</a
+      >
+      ("The Sisterhood of the Traveling Pants", "The Age of Adaline"),
+      <a
+        href="https://www.imdb.com/name/nm0046112/"
+        target="_blank"
+        class="imdb"
+        >Penn Badgley</a
+      >
+      ("John Tucker Must Die", "You"), and
+      <a
+        href="https://www.imdb.com/name/nm1015262/"
+        target="_blank"
+        class="imdb"
+        >Leighton Meester</a
+      >
+      ("The Roomate", "Single Parents"). The show became an ambassador for New
+      York City, setting off numerous "Gossip Girl tours of NYC" and having its
+      own day in the city's calendar. Thats true! In celebration of GG's 100th
+      episode in January, 2012, former mayor Michael Bloomberg announced January
+      26th as "Gossip Girl Day". To this day, Gossip Girl is such a hit that the
+      show is getting a sequel with HBO Max, to be released this July, 2021.
+      Nearly a decade after the conclusion of the original series, a new cast of
+      Manhattan private schoolers takes the lead under the watchful eye of
+      Gossip Girl, while demonstrating how much social media – and the landscape
+      of New York City itself – has changed in the intervening years.
+    </p>
+    <div class="watch">
+      Watch the sequel trailer
+      <a
+        href="https://www.youtube.com/watch?v=jsah5yCzh-U"
+        target="_blank"
+        class="trailer"
+      >
+        <strong>here</strong>
+      </a>
+    </div>
+    <br />
+    <button>Get your Gossip Girl NYC Guide</button>
+    <span>Coded by @_tarsila</span>
+
+    <script>
+      function cityGuide() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        let info = prompt("Did you write your real email?");
+
+        if (info === "yes")
+          alert(
+            "Thank you " + name + "! Check your inbox for your GG NYC Guide 🗽"
+          );
+        else alert("Sorry " + name + "! Please write a valid email adress 🗽");
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", cityGuide);
+    </script>
+  </body>
+</html>
